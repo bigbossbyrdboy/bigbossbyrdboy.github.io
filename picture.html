@@ -3,36 +3,83 @@
     <head>
     
         <style>
-            body { color: white; }
-            p { color: green; }
+          @font-face{
+    font-family: 'Source Code Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('Fonts/WOFF2/TTF/SourceCodePro-Light.ttf.woff2') format('woff2'),
+         url('Fonts/WOFF/OTF/SourceCodePro-Light.otf.woff') format('woff');
+}
+
+@font-face{
+    font-family:'monoki';
+    src: url('Fonts/mononoki-Regular.ttf') format('truetype');
+         
+}
+
+@font-face{
+    font-family:'courier2';
+    src: url('Fonts/Courier\ New\ Regular.ttf') format('truetype');
+         
+}
+
+body { color: white; }
+
+
+ pre 
+ {
+
+ }
             
-            pre {font-family:'Courier New', Courier, monospace;
-            font-size:1.7vw;
-            }
-            .text {font-family:'Courier New', Courier, monospace;
-            font-size:1.7vw;
-            }
+img 
+{
+width:19.7vw;
+height: 19.7vw;
+}
+            
+.img 
+{
+width: fit-content;
+height: fit-content;
+border-style: unset;
+border-color: purple;
+}
 
-            img {width:17.7vw;height: 17.7vw;}
-            .img {width: fit-content;
-            height: fit-content;
-                border-style: unset;
-            border-color: purple;}
-            .text {
-                width:fit-content;
-                height: auto;
-                margin: auto;
-                padding: 1%;
-                border-style: double;
-                box-sizing: border-box;
-                 }
+pre.ascii
+{
+font-family:'Courier2','monoki','Source Code Pro';
+}
 
-                 a:link {
-                    color: purple;
-                    background-color: transparent;
-                    text-decoration: none;
-                 }
-                 
+.text
+{
+font-size:1.9vw;
+width:fit-content;
+height: auto;
+margin: auto;
+padding: 1%;
+border-style: double;
+border-width: thick;
+ }
+
+.small
+{
+font-family:'courier2','Source Code Pro';
+font: size 100%;
+}
+
+.small2
+{
+font-family:'Source Code Pro';
+font-size:93%;
+}
+
+a:link
+ {
+ color: purple;
+background-color: transparent;
+text-decoration: none;
+}
                  
             </style>
 
@@ -44,18 +91,38 @@
     <div class="text">
 <div class="rainbow-text">
 <span style="color:#00FF59;">guest@braybray.net</span><span style="color:#ffffff;">:$-</span></span>
-</div><pre>
+</div><pre class="ascii">
 ██████╗ ██╗  ██╗ ██████╗ ████████╗ ██████╗ ███████╗
 ██╔══██╗██║  ██║██╔═══██╗╚══██╔══╝██╔═══██╗██╔════╝
 ██████╔╝███████║██║   ██║   ██║   ██║   ██║███████╗
 ██╔═══╝ ██╔══██║██║   ██║   ██║   ██║   ██║╚════██║
 ██║     ██║  ██║╚██████╔╝   ██║   ╚██████╔╝███████║
-╚═╝     ╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝ 
-----------------------------------------------------
+╚═╝     ╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝ </pre>
+<pre class="small">----------------------------------------------------
 Some of the most disturbing visuals known to mankind
-
+---------------------------------------------------- </pre><pre>
 <div class="img"><img src="/img/download.jpg"><img src="/img/cc.png"><img src="/img/brayvapor.png">
 <img src="img/bwcole.jpg" alt=""><img src="img/tonka.jpg" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 </div>
 </pre>
