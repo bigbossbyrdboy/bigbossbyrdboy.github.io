@@ -10,21 +10,29 @@
 
 @font-face{
     font-family: 'Source Code Pro';
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
-    src: url('WOFF2/TTF/SourceCodePro-Regular.ttf.woff2') format('woff2'),
-         url('WOFF/OTF/SourceCodePro-Regular.otf.woff') format('woff');
+    src: url('Fonts/WOFF2/TTF/SourceCodePro-Light.ttf.woff2') format('woff2'),
+         url('Fonts/WOFF/OTF/SourceCodePro-Light.otf.woff') format('woff');
+}
+
+
+
+@font-face{
+    font-family:'monoki';
+    src: url('Fonts/mononoki-Regular.ttf') format('truetype');
+         
 }
 
 
             body { color: white; }
             p { color: green; }
             
-            pre {font-family:'Source Code Pro','Courier New', Courier, monospace;
+            pre {font-family: 'monoki','Source Code Pro';
             font-size:1.7vw;
             }
-            .text {font-family:'Source Code Pro','Courier New', Courier, monospace;
+            .text {font-family: 'monoki','Source Code Pro';
             font-size:1.7vw;
             }
 
@@ -56,7 +64,7 @@
 <body style="background-color:#000000;">
 
 
-    <div class="text">
+<div class="text">
 <div class="rainbow-text"><span class="block-line"><span><span style="color:#00FF59;">guest@braybray.net</span><span style="color:#ffffff;">:$-</span></span></span></div><pre>
 ██████╗ ██████╗  █████╗ ██╗   ██╗██████╗ ██████╗  █████╗ ██╗   ██╗
 ██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝
